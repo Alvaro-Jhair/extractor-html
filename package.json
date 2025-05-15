@@ -1,0 +1,19 @@
+{
+  "name": "extractor-html",
+  "version": "1.0.0",
+  "description": "Servicio para extraer contenido de URLs usando Readability",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "@mozilla/readability": "^0.4.4",
+    "jsdom": "^22.1.0",
+    "node-fetch": "^3.3.2"
+  },
+  "type": "module"
+}
