@@ -1,7 +1,7 @@
-const express = require('express');
-const { Readability } = require('@mozilla/readability');
-const { JSDOM } = require('jsdom');
-const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
+import express from 'express';
+import { Readability } from '@mozilla/readability';
+import { JSDOM } from 'jsdom';
+import fetch from 'node-fetch';
 
 const app = express();
 app.use(express.json({ limit: '2mb' }));
